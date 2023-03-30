@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729397794217",
+    "project_id": "flash-chat-c8909",
+    "storage_bucket": "flash-chat-c8909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729397794217:android:20d82b6b50100034e7e0b8",
+        "android_client_info": {
+          "package_name": "com.sandra.flash_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729397794217-jbth2n0dbju1b4nnnoc2fnh8dv4b2dgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpl_V9vD9aGgRrVEcsR2WMDSCCLgpLglw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729397794217-jbth2n0dbju1b4nnnoc2fnh8dv4b2dgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
