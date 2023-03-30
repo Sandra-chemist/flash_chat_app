@@ -28,7 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
             SizedBox(
-              height: 48.0,
+              height: 8.0,
             ),
             TextField(
               onChanged: (value) {
@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   hintText: 'Enter your password'),
             ),
             SizedBox(
-              height: 24.0,
+              height: 4.0,
             ),
             RoundedButton(
               colour: Colors.lightBlueAccent,
