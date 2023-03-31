@@ -1,4 +1,5 @@
 import 'package:flash_chat_app/constants.dart';
+import 'package:flash_chat_app/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flash_chat_app/components/rounded_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -64,10 +65,15 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               colour: Colors.blueAccent,
               title: 'Register',
               onPressed: () async {
-                // print(email);
-                // print(password);
-                final newUser = await _auth.createUserWithEmailAndPassword(
-                    email: email, password: password);
+                try {
+                  final newUser = await _auth.createUserWithEmailAndPassword(
+                      email: email, password: password);
+                  if (newUser != null) {
+                    Navigator.pushNamed(context, ChatScreen.id);
+                  }
+                } catch (e) {
+                  print(e);
+                }
               },
             ),
           ],
