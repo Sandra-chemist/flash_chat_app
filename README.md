@@ -1,16 +1,10 @@
-# flash_chat_app
+# Flash Chat App
 
-A new Flutter project.
+- A Flutter project
+- App using Firebase
 
-## Getting Started
+![1](https://user-images.githubusercontent.com/96838309/229520758-c071301f-315c-4630-8c4f-0c915323791d.PNG)
+![2](https://user-images.githubusercontent.com/96838309/229520764-4bba2743-c9f6-4f7d-896a-eb9d60478424.PNG)
+![3](https://user-images.githubusercontent.com/96838309/229520769-0ffab079-421c-4077-9c43-0f5ddc763e60.PNG)
+![4](https://user-images.githubusercontent.com/96838309/229520773-ef32b955-fead-4e97-8af3-a0de0c2700a6.PNG)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
